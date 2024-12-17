@@ -1,0 +1,46 @@
+<% layout('./layouts/boilerplate') %>
+<body>
+    
+ <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We’re here to help. Get in touch with us using the form below, or reach out directly through our contact details.</p>
+    </header>
+
+    <section class="contact-form-section">
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form >
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h2>Contact Details</h2>
+                <p><strong>Email:</strong> support@example.com</p>
+                <p><strong>Phone:</strong> +9172394416</p>
+                <p><strong>Address:</strong> Phaltan,Lakshminagar</p>
+                <p><strong>Working Hours:</strong> Mon - Fri: 9:00 AM - 6:00 PM</p>
+
+                <h2>Find Us Here</h2>
+                <div class="map-placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
